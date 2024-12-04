@@ -10,5 +10,8 @@ def index():
 def hello():
     return 'Hello, World'
 
+@app.route('/abc')
+def abc():
+    return 'abcHello, World'
 if __name__ =="__main__":
     app.run()
